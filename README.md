@@ -3,7 +3,7 @@
 Install it:
 ```zsh
 
-curl -L https://raw.githubusercontent.com/purplehippo911/master/glob/jojos | sh
+curl -L  https://raw.githubusercontent.com/purplehippo911/Jojos-proj/main/madeinheaven.sh | sh
 
 ```
 
