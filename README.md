@@ -17,4 +17,10 @@ Run:
 jojos josu
 ```
 
+Make sure to turn on audio. the song will play.
+
+To uninstall:
+```sh
+zahando.sh
+```
 
