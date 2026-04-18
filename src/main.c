@@ -28,7 +28,7 @@ int main(int argc, char *argv[]){
 	const char *file = NULL;
 	
 	switch (choice) {
-		case 1: file ="../src/assets/josuke.wav"; break;
+		case 1: file = "/usr/local/jojos/src/assets/josuke.wav"; break;
 		default:
 			printf("Unknown argument.\n");
 			ma_engine_uninit(&engine);
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]){
 
 	printf("Playing %s\n", file);
 
-	result = ma_engine_play_sound(&engine, "../src/assets/josuke.wav", NULL);	
+	result = ma_engine_play_sound(&engine, "/usr/local/jojos/src/assets/josuke.wav", NULL);	
 	if(result != MA_SUCCESS) {
 		printf("Failed to play sound\n");
 		ma_engine_uninit(&engine);

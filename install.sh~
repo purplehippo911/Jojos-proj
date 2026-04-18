@@ -6,8 +6,8 @@ set -e
 # TODO: FIX to check if windows and different directory or if apple
 
 # create directory
-sudo cp -r ./ /usr/local/jojos
+cp ./ /usr/local/jojos
 cd /usr/local/jojos
-sudo make
+make
 
 echo "\ndone"
